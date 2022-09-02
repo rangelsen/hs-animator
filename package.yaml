@@ -20,7 +20,7 @@ extra-source-files:
 description:         Please see the README on GitHub at <https://github.com/rangelsen/hs-animator#readme>
 
 dependencies:
-- base >= 4.7 && < 5
+    - base
 
 ghc-options:
 - -Wall
@@ -46,6 +46,8 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - hs-animator
+    - GPipe-Core
+    - GPipe-GLFW4
 
 tests:
   hs-animator-test:

@@ -3,7 +3,21 @@
 # For more information, please see the documentation at:
 #   https://docs.haskellstack.org/en/stable/lock_files
 
-packages: []
+packages:
+- completed:
+    hackage: GPipe-Core-0.2.3.0@sha256:3960ac7e2edbc6a16475a160fbc170d1cb8e11213f34cacfe50851bcac651d0c,3311
+    pantry-tree:
+      size: 2995
+      sha256: d002364d5b1097cdee20145ae11c4789a0cf73ddd2d4e9a352f5ab2e3a6c00c6
+  original:
+    hackage: GPipe-Core-0.2.3.0
+- completed:
+    hackage: GPipe-GLFW4-2.0.0@sha256:75e3c0bccb838f598d6ec18b98a91add82826b4b928a14e1414cf9494a9fc685,3452
+    pantry-tree:
+      size: 2563
+      sha256: 62ca8e1bf8b9fdd5834c6868dff282f96cd54f24a907ba0709b6cab14adde8d8
+  original:
+    hackage: GPipe-GLFW4-2.0.0
 snapshots:
 - completed:
     size: 619391
